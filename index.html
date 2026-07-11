@@ -5,13 +5,18 @@
     </head>
     <h1><i>The Human Flight Log</i></h1>
     <body>
-        <body text="black" bgcolor="#00FFFF">
-            <section 1>
-            <p><b>Look up. Right now, hundreds of miles above your head, a new class of explorers is staring back.</b></p>
-            <br>Some are career scientists conducting life-saving research in continuous orbit. Others are civilian pioneers who took a chance on a livestreamed ticket,<br> feeling the crushing weight of several Gs before floating into three minutes of silent, weightless awe.</br> The barrier to the stars hasn’t just leaked; it has broken wide open. Whether it is SpaceX charting historic polar trajectories,<br> Blue Origin advancing universal accessibility, or NASA laying the foundation for permanent lunar colonies,</br> space is becoming a human domain—not just a national one.<br> Step inside the logistics, the economics, and the human stories of the men and women currently breaking free from Earth’s gravity.</br>         
-    
-            <p> <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gDS1VeORaiL0We725Zla-zOhJ_d7J8n2Ixehuzc9yksoK5gULuGkQSXA&s=10" alt="NASA crew in spaceship." height="200 width=300"></p>
-            </section>
+       <body text="white" bgcolor="#000000">
+
+<!-- This container holds your moon photo background -->
+<div class="moon-background-container">
+  <div class="homepage-content">
+    <h1><i>The Human Flight Log</i></h1>
+    <p><b>Look up. Right now, hundreds of miles above your head, a new class of explorers is staring back.</b></p>
+    <p>Some are career scientists conducting life-saving research in continuous orbit. Others are civilian pioneers who took a chance on a livestreamed ticket, feeling the crushing weight of several Gs before floating into three minutes of silent, weightless awe.</p>
+    <p>The barrier to the stars has broken wide open. Whether it is SpaceX charting historic polar trajectories, Blue Origin advancing universal accessibility, or NASA laying the foundation for permanent lunar colonies, space is becoming a human domain—not just a national one.</p>
+  </div>
+</div>
+
 
 
 
@@ -47,15 +52,16 @@
 
 
 <style>
-    /* Base Page Styling */
-body {
-    background-color: ghostwhite; /* Vibrant Cyan Background */
-    color: #000000;             /* Black Text */
-    font-family: "Times New Roman", serif; /* Classic serif font */
-    line-height: 1.5;
-    margin: 40px;
-    padding: 0;
+ /* --- CHANGE THIS ENTIRE BODY BLOCK --- */
+body { 
+  background-color: #000000; /* Changed to dark black for the space theme */
+  color: #ffffff;            /* Changed text to white so you can read it */
+  font-family: Arial, sans-serif; /* Changed to a modern font that reads better over images */
+  line-height: 1.6; 
+  margin: 0;                 /* Changed from 40px to 0 so the picture touches the very edges */
+  padding: 0; 
 }
+
 
 /* Headings */
 h1 {
@@ -102,7 +108,49 @@ li {
     font-weight: bold;
 }
 
- 
+ /* --- PASTE THIS NEW CODE AT THE BOTTOM --- */
+
+/* Sets up the full-screen moon image background container */
+.moon-background-container {
+  width: 100%;
+  min-height: 80vh;
+  /* Looks for your moon.jpg image and applies a dark filter over it */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('moon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Formats the text container sitting over the moon picture */
+.homepage-content {
+  max-width: 800px;
+  color: #ffffff; /* Guarantees this intro text stays bright white */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Adjusts your heading inside the moon image wrapper */
+.homepage-content h1 {
+  background-color: transparent; /* Removes the olive background just for the main title */
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Adjusts paragraph spacing inside the moon wrapper */
+.homepage-content p {
+  margin: 0 auto 15px auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Extra section wrap to give padding to the bottom content */
+section {
+  padding: 40px;
+}
+
  
 
 </style>
