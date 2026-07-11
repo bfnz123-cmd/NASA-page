@@ -1,133 +1,184 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Government Astronauts – The International Space Station Crew-12 & Crew-13</title>
-    </head>
-    <h1><i> Government Astronauts – The International Space Station Crew-12 & Crew-13</i></h1>
-    <body>
-        <body text="black" bgcolor="#00FFFF">
-
-            <section>
-      <br>This page highlights the professional, institutional astronauts currently operating or assigned to the International Space Station (ISS).</br>
-      Here are some pictures of them;
-      <p><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1R1CzTRjXX-bxBiiZsOxM3fP7Gn36XZBimk4vKpTEAw&s=10" width="300" height="300"></p> 
-        <p><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnG8u2pyHHSQH0OA7xvQar0uv-rJkEv-yVdNMN6_06bw&s=10" width="300" height="300"></p>
-            <p><image src="https://www.nasa.gov/wp-content/uploads/2025/09/ascans-2-003.jpg?w=1536" width=300 height=300></p>
-        <p><h3><i>Crew-12 Mission Profile (Launched February 13, 2026)</i></h3></p>
-          This crew was launched from Cape Canaveral via a SpaceX Falcon 9 to replace an early medical evacuation.<br> They are stationed for a 9-month duration.</br>
 <head>
-    <meta charset="UTF-8">
-    <title>Astronaut Diagram</title>
+  <title>Government Astronauts – The International Space Station Crew-12 & Crew-13</title>
+  
+  <style>
+    /* Base Page Styling: Updated to fit your dark solar system theme */
+    body { 
+      /* FIXED FOR GITHUB: Applies a dark overlay shield over your image so white text pops out */
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('solarsystem.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; /* Keeps the background locked in place while you scroll */
+      background-repeat: no-repeat;
+      background-color: #0b0d19; /* Backup dark blue color if image fails */
+      color: #ffffff;            /* Changed base text to white for maximum readability */
+      font-family: Arial, sans-serif; 
+      line-height: 1.6; 
+      margin: 0; 
+      padding: 0; 
+    }
+
+    /* Layout Content Wrapper */
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* Headings: Text colored dark black to stand out over the bright olive blocks */
+    h1 { 
+      background-color: rgba(176, 176, 24, 0.952); 
+      color: #000000;
+      font-size: 2.5rem; 
+      font-style: italic; 
+      margin: 0;
+      padding: 20px 40px;
+    }
+
+    h2, h3 { 
+      background-color: rgba(184, 184, 23, 0.922); 
+      color: #000000;
+      font-style: italic; 
+      margin-top: 30px; 
+      text-decoration: underline; 
+      padding: 8px;
+    }
+
+    /* Content Styling */
+    p { 
+      max-width: 800px; 
+      margin-bottom: 15px; 
+    }
+
+    /* Astronaut Crew Table Styling */
+    table {
+      width: 100%;
+      max-width: 900px;
+      background-color: rgba(26, 30, 54, 0.85); /* Semitransparent background over space wallpaper */
+      color: #ffffff;
+      border: 2px solid rgba(184, 184, 23, 0.5);
+      margin-top: 20px;
+    }
+
+    th {
+      background-color: rgba(184, 184, 23, 0.9);
+      color: #000000;
+      font-weight: bold;
+    }
+
+    td, th {
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      text-align: left;
+    }
+
+    /* Image Styling */
+    .crew-gallery-img { 
+      width: 300px; 
+      height: auto; 
+      border: 2px solid rgba(184, 184, 23, 0.5); 
+      margin: 10px; 
+      border-radius: 4px;
+    }
+
+    /* Metrics List */
+    ul { 
+      list-style-type: disc; 
+      padding-left: 20px; 
+    }
+
+    li { 
+      margin-bottom: 10px; 
+    }
+
+    /* Link formatting */
+    a {
+      color: #4af6ff; /* Neon blue link color that works nicely on dark themes */
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
+
+  <h1><i>Government Astronauts – The International Space Station Crew-12 & Crew-13</i></h1>
+
+  <section>
+    <p>This page highlights the professional, institutional astronauts currently operating or assigned to the International Space Station (ISS).</p>
+    <p>Here are some pictures of them:</p> 
+    
+    <!-- Image tags cleaned and wrapped in a class to display cleanly -->
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1R1CzTRjXX-bxBiiZsOxM3fP7Gn36XZBimk4vKpTEAw&s=10" class="crew-gallery-img" alt="Crew Portrait">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnG8u2pyHHSQH0OA7xvQar0uv-rJkEv-yVdNMN6_06bw&s=10" class="crew-gallery-img" alt="Crew at NASA">
+      <img src="https://www.nasa.gov/wp-content/uploads/2025/09/ascans-2-003.jpg?w=1536" class="crew-gallery-img" alt="NASA Astronaut Candidate Group">
+    </div>
+
+    <h3><i>Crew-12 Mission Profile (Launched February 13, 2026)</i></h3>
+    <p>This crew was launched from Cape Canaveral via a SpaceX Falcon 9 to replace an early medical evacuation. They are stationed for a 9-month duration.</p>
+
     <!-- Tabular Diagram -->
-    <table border="2" cellpadding="10" cellspacing="0">
-        <caption><h3>Astronaut Profiles & Mission Facts</h3></caption>
-        <thead>
-            <tr>
-                <th>Astronaut Name</th>
-                <th>Country / Agency</th>
-                <th>Background / Role</th>
-                <th>Key Mission Facts</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Jessica Meir</td>
-                <td>USA / NASA</td>
-                <td>Marine Biologist</td>
-                <td>Veteran; famous for previous all-female spacewalks.</td>
-            </tr>
-            <tr>
-                <td>Jack Hathaway</td>
-                <td>USA / NASA</td>
-                <td>U.S. Navy Captain</td>
-                <td>Rookie astronaut; first time flying to space.</td>
-            </tr>
-            <tr>
-                <td>Sophie Adenot</td>
-                <td>France / ESA</td>
-                <td>Helicopter Pilot</td>
-                <td>Only the second French woman ever to fly in space.</td>
-            </tr>
-            <tr>
-                <td>Andrei Fedyaev</td>
-                <td>Russia / Roscosmos</td>
-                <td>Military Pilot</td>
-                <td>Cosmonaut managing the Russian orbital segment.</td>
-            </tr>
-        </tbody>
+    <table cellpadding="10" cellspacing="0">
+      <caption><h3>Astronaut Profiles & Mission Facts</h3></caption>
+      <thead>
+        <tr>
+          <th>Astronaut Name</th>
+          <th>Country / Agency</th>
+          <th>Background / Role</th>
+          <th>Key Mission Facts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jessica Meir</td>
+          <td>USA / NASA</td>
+          <td>Marine Biologist</td>
+          <td>Veteran; famous for previous all-female spacewalks.</td>
+        </tr>
+        <tr>
+          <td>Jack Hathaway</td>
+          <td>USA / NASA</td>
+          <td>U.S. Navy Captain</td>
+          <td>Rookie astronaut; first time flying to space.</td>
+        </tr>
+        <tr>
+          <td>Sophie Adenot</td>
+          <td>France / ESA</td>
+          <td>Helicopter Pilot</td>
+          <td>Only the second French woman ever to fly in space.</td>
+        </tr>
+        <tr>
+          <td>Andrei Fedyaev</td>
+          <td>Russia / Roscosmos</td>
+          <td>Military Pilot</td>
+          <td>Cosmonaut managing the Russian orbital segment.</td>
+        </tr>
+      </tbody>
     </table>
 
-    <hr>
-        <section>
-        <h3><b><i>Crew-13 Mission Manifest (Targeting September 2026)</i></b></h3>
-        NASA advanced this launch window to re-stabilize the standard 6-month crew rotation cycle.
-        <a href="https://www.orlandosentinel.com/2026/06/28/space-coast-launch-schedule/">Read and Learn more about Crew-13</a>
-        <ul>
-           <p><b><li>Jessica Watkins (Commander, NASA):</b> Setting records as the first NASA astronaut to fly twice aboard a SpaceX Crew Dragon.</li></p> <p><b><li>Luke Delaney (Pilot, NASA):</b> Rookie pilot from Central Florida.</li></p>  <p><b><li>Joshua Kutryk (Mission Specialist, CSA):</b> Rookie representing Canada.</li></p>  <p><b><li>Sergey Teteryatnikov (Mission Specialist, Roscosmos):</b> Rookie cosmonaut.</li></p>
-        </ul>
-        </section>
+    <hr style="border: 1px solid rgba(255,255,255,0.1); margin-top: 40px;">
 
-        <a href="index3.html">Continue to The Hardware (Orion & SLS)</a>
+    <h3><b><i>Crew-13 Mission Manifest (Targeting September 2026)</i></b></h3>
+    <p>NASA advanced this launch window to re-stabilize the standard 6-month crew rotation cycle. 
+       <a href="https://www.orlandosentinel.com/2026/06/28/space-coast-launch-schedule/" target="_blank">Read and Learn more about Crew-13</a>
+    </p>
+    
+    <ul>
+      <li><b>Jessica Watkins (Commander, NASA):</b> Setting records as the first NASA astronaut to fly twice aboard a SpaceX Crew Dragon.</li>
+      <li><b>Luke Delaney (Pilot, NASA):</b> Rookie pilot from Central Florida.</li>
+      <li><b>Joshua Kutryk (Mission Specialist, CSA):</b> Rookie representing Canada.</li>
+      <li><b>Sergey Teteryatnikov (Mission Specialist, Roscosmos):</b> Rookie cosmonaut.</li>
+    </ul>
+
+    <p style="margin-top: 40px;"><a href="index3.html">Continue to The Hardware (Orion & SLS)</a></p>
+  </section>
+
+</body>
 </html>
-
-
-
-<style>
-    /* Base Page Styling */
-body {
-    background-color: ghostwhite; /* Vibrant Cyan Background */
-    color: #000000;             /* Black Text */
-    font-family: "Times New Roman", serif; /* Classic serif font */
-    line-height: 1.5;
-    margin: 40px;
-    padding: 0;
-}
-
-/* Headings */
-h1 {
-    background-color: rgba(176, 176, 24, 0.952);
-    font-size: 2.5rem;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-h2, h3 {
-    background-color: rgba(184, 184, 23, 0.922);
-    font: italic;
-    margin-top: 30px;
-    text-decoration: underline;
-}
-
-/* Content Sections */
-p {
-    max-width: 800px;
-    margin-bottom: 15px;
-}
-
-/* Image Styling */
-.flight-image {
-    width: 250px;
-    height: auto;
-    border: 1px solid #000;
-    margin: 20px 0;
-    display: block;
-}
-
-/* Metrics List */
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-/* Emphasis for Data Labels */
-.label {
-    font-weight: bold;
-}
-
-</style>
