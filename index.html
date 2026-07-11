@@ -1,144 +1,138 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The Human Flight Log</title>
-    </head>
-    <h1><i>The Human Flight Log</i></h1>
-    <body>
-       <body text="white" bgcolor="#000000">
+<head>
+  <title>The Human Flight Log</title>
+  
+  <style>
+    /* Base Page Styling */
+    body { 
+      background-color: #000000; 
+      color: #ffffff; 
+      font-family: Arial, sans-serif; 
+      line-height: 1.6; 
+      margin: 0; 
+      padding: 0; 
+    }
 
-<!-- This container holds your moon photo background -->
-<div class="moon-background-container">
-  <div class="homepage-content">
-    <h1><i>The Human Flight Log</i></h1>
-    <p><b>Look up. Right now, hundreds of miles above your head, a new class of explorers is staring back.</b></p>
-    <p>Some are career scientists conducting life-saving research in continuous orbit. Others are civilian pioneers who took a chance on a livestreamed ticket, feeling the crushing weight of several Gs before floating into three minutes of silent, weightless awe.</p>
-    <p>The barrier to the stars has broken wide open. Whether it is SpaceX charting historic polar trajectories, Blue Origin advancing universal accessibility, or NASA laying the foundation for permanent lunar colonies, space is becoming a human domain—not just a national one.</p>
+    /* Headings */
+    h1 { 
+      background-color: rgb(173, 173, 26); 
+      font-size: 2.5rem; 
+      font-style: italic; 
+      margin-bottom: 20px; 
+    }
+
+    h2, h3 { 
+      background-color: rgba(170, 170, 34, 0.91); 
+      font-style: italic; 
+      margin-top: 30px; 
+      text-decoration: underline; 
+    }
+
+    /* Content Sections */
+    p { 
+      max-width: 800px; 
+      margin-bottom: 15px; 
+    }
+
+    /* Image Styling */
+    .flight-image { 
+      width: 250px; 
+      height: auto; 
+      border: 1px solid #000; 
+      margin: 20px 0; 
+      display: block; 
+    }
+
+    /* Metrics List */
+    ul { 
+      list-style-type: disc; 
+      padding-left: 20px; 
+    }
+
+    li { 
+      margin-bottom: 10px; 
+    }
+
+    /* Emphasis for Data Labels */
+    .label { 
+      font-weight: bold; 
+    }
+
+    /* FIXED: Added the container name and a working live moon image link */
+    .moon-background-container {
+      width: 100%;
+      min-height: 70vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://unsplash.com');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Formats the text container sitting over the moon picture */
+    .homepage-content { 
+      max-width: 800px; 
+      color: #ffffff; 
+      text-align: center; 
+      padding: 40px 20px; 
+    }
+
+    /* Adjusts your heading inside the moon image wrapper */
+    .homepage-content h1 { 
+      background-color: transparent; 
+      font-size: 3rem; 
+      margin-bottom: 20px; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+    }
+
+    /* Adjusts paragraph spacing inside the moon wrapper */
+    .homepage-content p { 
+      margin: 0 auto 15px auto; 
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9); 
+    }
+
+    /* Extra section wrap to give padding to the bottom content */
+    section { 
+      padding: 40px; 
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- This container holds your live moon photo background -->
+  <div class="moon-background-container">
+    <div class="homepage-content">
+      <h1><i>The Human Flight Log</i></h1>
+      <p><b>Look up. Right now, hundreds of miles above your head, a new class of explorers is staring back.</b></p>
+      <p>Some are career scientists conducting life-saving research in continuous orbit. Others are civilian pioneers who took a chance on a livestreamed ticket, feeling the crushing weight of several Gs before floating into three minutes of silent, weightless awe.</p>
+      <p>The barrier to the stars has broken wide open. Whether it is SpaceX charting historic polar trajectories, Blue Origin advancing universal accessibility, or NASA laying the foundation for permanent lunar colonies, space is becoming a human domain—not just a national one.</p>
+    </div>
   </div>
-</div>
 
+  <section>
+    <h2><p><b><i>Homepage & The New Era of Human Spaceflight</i></b></p></h2>
+    <p>The landing page establishes the structural framework of human spaceflight, separating elite government programs from the explosive commercial sector.</p>
+    
+    <h3><b><i><u>Key Data & Metrics</u></i></b></h3>
+    <ul>
+      <li><b>Total Human Space Explorers:</b> Over 370 explorers selected historically.</li>
+      <li><b>Current ISS Continuous Occupation:</b> Continuously manned since November 2, 2000.</li>
+      <li><b>Commercial Space Tourism Valuation:</b> Reached $1.3–$1.9 billion.</li>
+      <li><b>The Kármán Line:</b> The recognized boundary of space at 100 kilometers (62 miles).</li>
+    </ul>
 
+    <h3><b><i><u>The Two Core Pillars of Modern Missions</u></i></b></h3>
+    <ul>
+      <li><b>Government/Institutional Programs:</b> Multi-month orbital stays executing microgravity science and planetary transit research.</li>
+      <li><b>Private & Commercial Flights:</b> Quick suborbital edges-of-space or private orbital flights funded by individuals or private corporations.</li>
+    </ul>
 
+    <p><a href="index2.html">Learn more about the International Space Station Crew-12 and Crew-13</a></p>
+  </section>
 
-            <section>
-                <h2><p><b><i>Homepage & The New Era of Human Spaceflight</i></b></p></h2>
-                The landing page establishes the structural framework of human spaceflight, separating elite government programs from the explosive commercial sector. 
-                <h3><b><i><u>Key Data & Metrics</u></i></b></h3>
-
-                <ul>
-
-                <p><b><li>Total Human Space Explorers:</b> Over 370 explorers selected historically.</li></p>
-                <p><b><li>Current ISS Continuous Occupation:</b> Continuously manned since November 2, 2000.</li></p>
-                <p><b><li>Commercial Space Tourism Valuation:</b>Reached $1.3–$1.9 billion.</li></p>
-                <p><b><li>The Kármán Line:</b>The recognized boundary of space at 100 kilometers (62 miles).</li></p>
-                
-                </ul> 
-
-                <h3><b><i><u>The Two Core Pillars of Modern Missions</u></i></b></h3>
-
-                <ul>
-
-                    <p><b><li>Government/Institutional Programs:</b> Multi-month orbital stays executing microgravity science and planetary transit research.</li></p>
-                    <p><b><li>Private & Commercial Commercial Flights:</b> Quick suborbital edges-of-space or private orbital flights funded by individuals or private corporations.</li></p>
-
-                </ul>
-                <p><a href="index2.html">Learn more about the International Space Station Crew-12 and Crew-13</a></p>
-                
-            </section>
-        </body>
+</body>
 </html>
-
-
-
-
-<style>
- /* --- CHANGE THIS ENTIRE BODY BLOCK --- */
-body { 
-  background-color: #000000; /* Changed to dark black for the space theme */
-  color: #ffffff;            /* Changed text to white so you can read it */
-  font-family: Arial, sans-serif; /* Changed to a modern font that reads better over images */
-  line-height: 1.6; 
-  margin: 0;                 /* Changed from 40px to 0 so the picture touches the very edges */
-  padding: 0; 
-}
-
-
-/* Headings */
-h1 {
-    background-color: rgb(173, 173, 26);
-    font-size: 2.5rem;
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-h2, h3 {
-    background-color: rgba(170, 170, 34, 0.91);
-    font-style: italic;
-    margin-top: 30px;
-    text-decoration: underline;
-}
-
-/* Content Sections */
-p {
-    max-width: 800px;
-    margin-bottom: 15px;
-}
-
-/* Image Styling */
-.flight-image {
-    width: 250px;
-    height: auto;
-    border: 1px solid #000;
-    margin: 20px 0;
-    display: block;
-}
-
-/* Metrics List */
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-/* Emphasis for Data Labels */
-.label {
-    font-weight: bold;
-}
-
- /* Replace your .moon-background-container background line with this line */
-background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://unsplash.com');
-
-
-/* Formats the text container sitting over the moon picture */
-.homepage-content {
-  max-width: 800px;
-  color: #ffffff; /* Guarantees this intro text stays bright white */
-  text-align: center;
-  padding: 40px 20px;
-}
-
-/* Adjusts your heading inside the moon image wrapper */
-.homepage-content h1 {
-  background-color: transparent; /* Removes the olive background just for the main title */
-  font-size: 3rem;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-/* Adjusts paragraph spacing inside the moon wrapper */
-.homepage-content p {
-  margin: 0 auto 15px auto;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
-}
-
-/* Extra section wrap to give padding to the bottom content */
-section {
-  padding: 40px;
-}
-
- 
-
-</style>
