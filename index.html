@@ -59,12 +59,11 @@
       font-weight: bold; 
     }
 
-       /* FIXED FOR GITHUB: Uses a pure code star-field layer so it never fails to load */
+         /* Keeps your beautiful star background exactly the same */
     .moon-background-container {
       width: 100%;
-      min-height: 70vh;
-      background-color: #0b0d19; /* Deep space dark blue/black base */
-      /* This code draws tiny, sharp white stars directly onto your screen using code gradients */
+      min-height: 90vh; /* Made it taller to fit the text and the moon together */
+      background-color: #0b0d19;
       background-image: 
         radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
         radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
@@ -75,6 +74,19 @@
       justify-content: center;
       align-items: center;
     }
+
+    /* Styles the moon picture so it sits nicely at the bottom */
+    .bottom-moon {
+      width: 180px;         /* Sets a clean size for the moon */
+      height: 180px;
+      border-radius: 50%;   /* Makes sure it stays perfectly round */
+      margin-top: 30px;     /* Pushes it down below the text paragraphs */
+      display: block;
+      margin-left: auto;    /* Centers the moon perfectly in the middle */
+      margin-right: auto;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.4); /* Gives the moon a soft space glow */
+    }
+
 
 
     /* Formats the text container sitting over the moon picture */
